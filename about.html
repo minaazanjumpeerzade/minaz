@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Grocery Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            position: relative;
+            background: url('images/all.png') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+        .about-section {
+            background: #ffffff;
+            padding: 50px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: -50px;
+            border-radius: 10px;
+        }
+        .about-section h2 {
+            color: #333333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .about-section p {
+            color: #555555;
+            line-height: 1.8;
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .about-section img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .team-member {
+            flex: 1 1 300px;
+            max-width: 300px;
+            margin: 20px;
+            text-align: center;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .team-member h3 {
+            margin-top: 10px;
+            font-size: 22px;
+            color: #333333;
+        }
+        .team-member p {
+            color: #777777;
+            font-size: 16px;
+        }
+        @media (max-width: 768px) {
+            .about-section {
+                padding: 30px 10px;
+            }
+            .about-section p {
+                font-size: 16px;
+            }
+            .team {
+                flex-direction: column;
+                align-items: center;
+            }
+            .team-member {
+                flex: 1 1 100%;
+                max-width: 90%;
+                margin: 10px 0;
+            }
+        }
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+            .about-section h2 {
+                font-size: 24px;
+            }
+            .about-section p {
+                font-size: 14px;
+            }
+            .team-member h3 {
+                font-size: 18px;
+            }
+            .team-member p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>About Us</h1>
+    </div>
+
+    <div class="container">
+        <div class="about-section">
+            <h2>Welcome to GROCIFY</h2>
+            <p>Your number one source for all things grocery. We're dedicated to giving you the very best of fresh produce, dairy, and everyday essentials, with a focus on quality, customer service, and uniqueness.</p>
+            <p>Founded in 2024 by Minaaz peerzade, Grocify has come a long way from its beginnings in hubli. When minaaz first started out, her passion for providing the best produce drove her to quit her day job, do tons of research, and gave her the impetus to turn hard work and inspiration into a booming online store. We now serve customers all over and are thrilled to be a part of the eco-friendly, fair trade wing of the grocery industry.</p>
+            <p>We believe in the power of community and strive to build a relationship with our customers that goes beyond transactions. Our commitment to sustainability and local sourcing means we work closely with farmers and suppliers to bring you fresh and responsibly sourced products.</p>
+            <p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+            <p>Sincerely,<br>[MINAAZ PEERZADE]</p> 
+            <a href="#" class="btn">Click Here For More Details</a>
+
+            <img src="images/t1.jpg" alt="Our Store">
+        </div>
+
+        <div class="team">
+            <div class="team-member">
+                <img src="images/t1.jpg" alt="Team Member 1">
+                <h3>Team Member 1</h3>
+                <p>CEO & Founder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/t3.avif" alt="Team Member 2">
+                <h3>Team Member 2</h3>
+                <p>Head of Operations</p>
+            </div>
+            <div class="team-member">
+                <img src="images/t4.avif" alt="Team Member 3">
+                <h3>Team Member 3</h3>
+                <p>Customer Service Manager</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

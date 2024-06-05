@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Categories</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Font Awesome for Star Ratings -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .badge-price {
+            font-size: 1.2em;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+        .star-rating {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Grocery Categories</h2>
+        <!-- Swiper -->
+        <div class="swiper-container product-slider">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Fruits">
+                        <div class="card-body">
+                            <h5 class="card-title">Fruits</h5>
+                            <p class="card-text">A variety of fresh fruits to choose from.</p>
+                            <div class="star-rating mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge badge-success badge-price">$</span>
+                                <a href="#" class="btn btn-primary">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Vegetables">
+                        <div class="card-body">
+                            <h5 class="card-title">Vegetables</h5>
+                            <p class="card-text">Fresh and organic vegetables available.</p>
+                            <div class="star-rating mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
